@@ -23,7 +23,33 @@
   <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap " rel="stylesheet"><link rel="icon" href="https://raw.githubusercontent.com/johnriss819-art/kasbahdigital/main/favicon.ico">
 </head>
 <body dir="rtl">
+/* تصميم زر الحث على الإجراء (Call To Action Button) */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: var(--accent-color); /* اللون الأخضر المميز */
+    color: white;
+    text-decoration: none; /* إزالة الخط تحت الرابط */
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 50px; /* جعل الحواف مستديرة بالكامل */
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
+.cta-button:hover {
+    background-color: #1e7e34; /* لون أغمق عند المرور بالماوس */
+    transform: translateY(-2px); /* تأثير رفع طفيف عند التفاعل */
+}
+
+/* تنسيق القسم الحاوي للزر */
+.cta-section {
+    padding: 30px;
+    background-color: #f1f8ff; /* خلفية خفيفة لتمييز قسم الزر */
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
   <!-- الهيدر -->
   <header>
    <img src="https://raw.githubusercontent.com/johnriss819-art/kasbahdigital/main/KasbahDigital-Logo.png" alt="Kasbah Digital Logo">
