@@ -14,4 +14,29 @@
     .service{background:#f7f7f7;padding:20px;border-radius:10px;flex:1 1 250px;}
     footer{background:var(--dark);color:var(--light);text-align:center;padding:20px;font-size:.9rem;}
     @media(max-width:600px){h1{font-size:1.6rem;}}
- .
+ ./* تصميم زر الحث على الإجراء (Call To Action Button) */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: var(--accent-color); /* اللون الأخضر المميز */
+    color: white;
+    text-decoration: none; /* إزالة الخط تحت الرابط */
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 50px; /* جعل الحواف مستديرة بالكامل */
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    background-color: #1e7e34; /* لون أغمق عند المرور بالماوس */
+    transform: translateY(-2px); /* تأثير رفع طفيف عند التفاعل */
+}
+
+/* تنسيق القسم الحاوي للزر */
+.cta-section {
+    padding: 30px;
+    background-color: #f1f8ff; /* خلفية خفيفة لتمييز قسم الزر */
+    border-radius: 10px;
+    margin-bottom: 40px;
