@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="style.css">
-<style>
+.
+.
     :root{--gold:#C78E4A;--dark:#1E1E1E;--light:#FFF;}
     *{margin:0;padding:0;box-sizing:border-box;font-family:'Tajawal',sans-serif;}
     body{line-height:1.8;background:var(--light);color:var(--dark);}
@@ -14,4 +14,4 @@
     .service{background:#f7f7f7;padding:20px;border-radius:10px;flex:1 1 250px;}
     footer{background:var(--dark);color:var(--light);text-align:center;padding:20px;font-size:.9rem;}
     @media(max-width:600px){h1{font-size:1.6rem;}}
-  </style>
+ .
