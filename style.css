@@ -1,6 +1,4 @@
-.
-.
-    :root{--gold:#C78E4A;--dark:#1E1E1E;--light:#FFF;}
+  :root{--gold:#C78E4A;--dark:#1E1E1E;--light:#FFF;}
     *{margin:0;padding:0;box-sizing:border-box;font-family:'Tajawal',sans-serif;}
     body{line-height:1.8;background:var(--light);color:var(--dark);}
     header{text-align:center;padding:60px 20px 40px;background:linear-gradient(135deg,var(--gold),#D9A566);color:var(--light);}
