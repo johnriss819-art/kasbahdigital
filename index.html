@@ -1,47 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kasbah Digital — وكالة تسويق رقمي للفنادق والرياض</title>
-<meta name="description" content="Kasbah Digital — وكالة تسويق رقمي فاخرة متخصصة في جلب الزبناء للفنادق والرياض في مراكش. تدقيق مجاني، حملات Google & Facebook، إنتاج محتوى ومواقع حجز احترافية.">
-<link rel="icon" href="/assets/images/favicon.ico">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css">
-<!-- Open Graph (for social shares) -->
-<meta property="og:title" content="Kasbah Digital — وكالة تسويق رقمي للفنادق والرياض">
-<meta property="og:description" content="نحو حجوزات أكثر وعمولات أقل — خدمات تسويق رقمي متكاملة للفنادق والرياض في مراكش.">
-<meta property="og:image" content="/assets/images/hero.jpg">
-<meta property="og:type" content="website">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasbah Digital - تسويق رقمي للفنادق</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #f0f0f0; color: #333; line-height: 1.6; }
+        header { background-color: #003366; color: white; padding: 20px; text-align: center; border-bottom: 3px solid #D4AF37; }
+        .hero { padding: 50px; text-align: center; background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'); background-size: cover; color: white; position: relative; }
+        .hero::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); }
+        .hero h2, .hero p { position: relative; z-index: 1; }
+        .section { padding: 40px 20px; max-width: 1200px; margin: auto; }
+        .about, .portfolio, .blog { background: white; margin: 20px 0; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border: 1px solid #D4AF37; }
+        .services { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .service { background: white; padding: 20px; margin: 10px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 30%; min-width: 250px; border: 1px solid #D4AF37; }
+        .portfolio img, .blog img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
+        .cta-button { background-color: #003366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; border: 2px solid #D4AF37; transition: background-color 0.3s; }
+        .cta-button:hover { background-color: #D4AF37; color: #003366; }
+        h2 { color: #003366; border-bottom: 2px solid #D4AF37; padding-bottom: 10px; }
+        footer { background-color: #003366; color: white; text-align: center; padding: 20px; border-top: 3px solid #D4AF37; }
+    </style>
 </head>
 <body>
-<header class="site-header">
-<div class="container header-inner">
-<a class="brand" href="/">
-<img src="/assets/images/logo.svg" alt="Kasbah Digital" class="brand-logo">
-<div class="brand-text">
-<h1>Kasbah Digital</h1>
-<p class="tag">Marketing de Luxe pour Riads &amp; Hôtels</p>
-</div>
-</a>
-
-
-<nav class="main-nav">
-<ul>
-<li><a href="#services">خدماتنا</a></li>
-<li><a href="#results">النتائج</a></li>
-<li><a href="#testimonials">آراء العملاء</a></li>
-<li><a href="#contact">تواصل</a></li>
-</ul>
-</nav>
-
-
-<div class="cta-group">
-<a href="#contact" class="btn btn-ghost">احصل على تدقيق مجاني</a>
-<a href="https://wa.me/212612345678" class="btn btn-primary">تواصل عبر واتساب</a>
-</div>
-
-
-<button class="hamburger" aria-label="قائمة" onclick="document.body.classList.toggle('menu-open')">
-<span></span><span></span><span></span>
+    <header>
+        <h1>Kasbah Digital</h1>
+        <p>وكالة تسويق رقمي متخصصة في جلب الزبناء للفنادق والرياض في مراكش</p>
+    </header>
+    
+    <section class="hero">
+        <h2>اكتشف سحر مراكش مع خدماتنا الفاخرة</h2>
+        <p>نحن نجعل فنادقك ورياضك تتألق عبر الإنترنت، جذب آلاف الزوار كل شهر.</p>
+        <a href="#contact" class="cta-button">احجز استشارة مجانية الآن</a>
+    </section>
+    
+    <section class="section about">
+        <h2>عن الوكالة</h2>
+        <p>في Kasbah Digital، نحن متخصصون في التسويق الرقمي لقطاع الضيافة الفاخرة في المغرب. منذ تأسيسنا، ساعدنا أكثر من 50 فندقاً ورياضاً في مراكش على زيادة حجوزاتهم بنسبة تصل إلى 300% عبر استراتيجيات مبتكرة. فريقنا من الخبراء المحليين يفهم ثقافة مراكش ويستخدم أحدث التقنيات لجذب الزبناء الدوليين.</p>
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="فريق عمل Kasbah Digital" style="width: 100%; height: 300px; object-fit: cover; margin: 20px 0;">
+        <a href="#contact" class="cta-button">تعرف على خدماتنا</a>
+    </section>
+    
+    <section class="section services">
+        <h2>خدماتنا</h2>
+        <div class="service">
+            <h3>إدارة وسائل التواصل الاجتماعي</h3>
+            <p>ننشئ محتوى فاخر يعرض جمال رياضك وفنادقك، جذب الزوار من Instagram وFacebook.</p>
+            <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="وسائل تواصل اجتماعي" style="width: 100%; height: 150px; object-fit: cover; margin: 10px 0;">
+            <a href="#contact" class="cta-button">ابدأ حملتك</a>
+        </div>
+        <div class="service">
+            <h3>تحسين محركات البحث (SEO)</h3>
+            <p>نضمن ظهور فنادقك في أعلى نتائج البحث لكلمات مثل "luxury hotels Marrakech".</p>
+            <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="SEO للفنادق" style="width: 100%; height: 150px; object-fit: cover; margin: 10px 0;">
+            <a href="#contact" class="cta-button">اطلب تحليلاً مجانياً</a>
+        </div>
+        <div class="service">
+            <h3>حملات إعلانية مدفوعة</h3>
+            <p>جذب زبناء دوليين عبر Google Ads وFacebook Ads، مع عائد استثمار مضمون.</p>
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="حملات إعلانية" style="width: 100%; height: 150px; object-fit: cover; margin: 10px 0;">
+            <a href="#contact" class="cta-button">احصل على عرض أسعار</a>
+        </div>
+    </section>
+    
+    <section class="section portfolio">
+        <h2>أعمالنا السابقة</h2>
+        <p>إليك بعض المشاريع التي حققنا فيها نجاحاً فاخراً لعملائنا في مراكش.</p>
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+            <div style="width: 30%; min-width: 250px; margin: 10px;">
+                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="فندق فاخر في مراكش">
+                <p>زيادة الحجوزات بنسبة 250% لفندق فاخر في المدينة القديمة.</p>
+            </div>
+            <div style="width: 30%; min-width: 250px; margin: 10px;">
+                <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="رياض تقليدي">
+                <p>حملة تسويقية أدت إلى جذب 500 زائر شهرياً لرياض تقليدي.</p>
+            </div>
+        </div>
+        <a href="#contact" class="cta-button">شاهد المزيد من الأعمال</a>
+    </section>
+    
+    <section class="section blog">
+        <h2>المدونة</h2>
+        <p>نصائح وأخبار عن التسويق السياحي في المغرب.</p>
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+            <div style="width: 30%; min-width: 250px; margin: 10px;">
+                <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="تسويق سياحي">
+                <h4>كيف تجذب السياح إلى فنادقك في مراكش</h4>
+                <p>استراتيجيات فعالة لزيادة الإيرادات...</p>
+                <a href="#" class="cta-button">اقرأ المزيد</a>
+            </div>
+            <div style="width: 30%; min-width: 250px; margin: 10px;">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="فنادق فاخرة">
+                <h4>أسرار التسويق للفنادق الفاخرة</h4>
+                <p>نصائح لجعل موقعك يتألق...</p>
+                <a href="#" class="cta-button">اقرأ المزيد</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>اتصل بنا</h2>
+        <p>جاهز لتحويل فندقك إلى وجهة فاخرة؟ تواصل معنا اليوم!</p>
+        <form action="#" method="post" style="max-width: 600px; margin: auto;">
+            <input type="text" placeholder="اسمك" style="width: 100%; padding: 10px; margin: 10px 0;" required>
+            <input type="email" placeholder="بريدك الإلكتروني" style="width: 100%; padding: 10px; margin: 10px 0;" required>
+            <textarea placeholder="رسالتك" style="width: 100%; padding: 10px; margin: 10px 0;" rows="5"></textarea>
+            <button type="submit" class="cta-button">أرسل الرسالة</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Kasbah Digital. جميع الحقوق محفوظة. | <a href="#" style="color: white;">سياسة الخصوصية</a></p>
+    </footer>
+</body>
 </html>
